@@ -1,0 +1,28 @@
+body{
+	background-color: lightgrey;
+}
+.div1{
+	min-height:70px; 
+	background-color: white;
+	box-shadow: 1px 1px 1px lightgrey;
+}
+#id1{
+	color: green;
+	float: left;
+	margin-top: 1%;
+	margin-right: 2%;
+	font-size: 20px;
+}
+.left{
+	float: left;
+}
+p{
+	font-size: 10px;
+}
+.right{
+	margin-top:1% ;
+	float: right;
+}
+#id2{
+	font-size: 20px;
+}

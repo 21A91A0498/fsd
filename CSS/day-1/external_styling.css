@@ -1,0 +1,26 @@
+.external{
+	border: black;
+	background-color: lightgray;
+	font-family: fantasy;
+	font-size: 10px;
+}
+#abc{
+	font-size: 20px;
+	background-color: whitesmoke;
+}
+p{
+	color: darkcyan;
+	font-size: 20px;
+	font-family: cursive;
+}
+div{
+	height: 100px;
+	width: 100px;
+	background-color: purple;
+}
+*{
+/*	universal selector*/
+	font-size: 30px;
+	font-family: inherit;
+	color: lightseagreen;
+}

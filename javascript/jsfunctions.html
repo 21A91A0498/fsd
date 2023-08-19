@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Functions</title>
+</head>
+<body>
+	<script type="text/javascript">
+		// function_keyword function_name(arguments){
+		// 	statements
+		// 	return statement
+		// }
+
+
+
+		// normal function with no parameters
+		function test(){
+			alert('testing-alert box using Functions')
+		}
+		test()
+
+
+
+
+		// function with one argument
+
+		function name(a){
+			document.write(a)
+		}
+		name('Daniel</br>')
+
+		function getname(a='JashuvaDaniel')
+		{
+			document.write(a)
+		}
+		getname('Daniel </br>')
+
+
+		//function with one parameter taking input manually
+		var Id1 = prompt("Scan your Id Card here");
+		var Id2 = prompt('Scan your Id Card here');
+		function scanyourId(rollno){
+			document.write('Roll no : ',rollno,"</br>");
+		}
+		scanyourId(Id1)
+		scanyourId(Id2)
+
+
+
+		// function with default arguments
+		function sum(a,b=10)
+		{
+
+			document.write(a+b,"<br>")
+		}
+		sum(10)
+
+		// anonymous function is a function without having Funcgtion name
+		var x = function(a,b){
+			return a*b
+		}
+		document.write(x(2,5),"<br>")
+
+		//cube of a number
+		var num = prompt('enter the number ') 
+		var y = function(a){
+			return a*a*a
+		}
+		document.write(y(num))
+	</script>
+</body>
+</html>

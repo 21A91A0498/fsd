@@ -1,0 +1,36 @@
+body{
+	background: url('../../HTML/images/bgimg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+p{
+	/*border-style: solid;
+	border-width: 2px;
+	border-color: black;
+	border-radius: 10px;
+	border-top: solid;
+	border-left: groove;
+	border-right: dashed;
+	border-bottom:ridge;*/
+/*	border:4px dashed cornflowerblue;   */
+/*	we can use border style,border width ,border color in this one property*/
+
+	border-left: 7px solid red;
+}
+h1{
+
+	border-style: dotted;
+	border-color: lawngreen darkred black blueviolet;
+	border-width: 3px;
+
+}
+span{
+	border:3px solid black;
+	border-radius: 50px;
+	padding:10px;
+}
+
+span{
+	border:2px solid red;
+	border-radius: 50%;
+}

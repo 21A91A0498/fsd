@@ -1,0 +1,106 @@
+body{
+	background-color: ghostwhite;
+}
+.B{
+	border: 1px solid grey;
+	border-radius: 5px;
+	box-shadow:2px 2px 1px lightgrey;
+	margin-left: 10px;
+/*	width: 20%;*/
+	height:70px;
+
+}
+#id1{
+	font-size: 25px;
+	color: blue;
+}
+.div1{
+	margin-top: 20px;
+	float: left;
+	margin-left:10px ;
+}
+.div2{
+	float: right;
+}
+h6{
+	margin-top: 10px;
+	align-content: center;
+	margin-right: 10px;
+}
+p{
+	color: grey;
+	font-size: 10px;
+	margin-right:10px;
+}
+#id2{
+/*	border color:2px orange;*/
+	color: orange;
+	font-size: 25px;
+}
+#id3{
+	color: green;
+	font-size: 25px;
+}
+#id4{
+	color: red;
+	font-size: 25px;
+}
+.di1{
+	float: left;
+	margin-left:10px ;
+}
+.di2{
+	margin-top: 20px;
+	float: right;
+	margin-right:10px ;
+}
+#id5{
+	color: red;
+	font-size: 25px;
+}
+.h61{
+	color: red;
+}
+#id6{
+	color: green;
+	font-size: 25px;
+}
+#id7{
+	color: orange;
+	font-size: 25px;
+}
+#id8{
+	color: skyblue;
+	font-size: 25px;
+}
+
+.h62{
+	color: green;
+}
+.h63{
+	color: orange;
+}
+.h64{
+	color: skyblue;
+}
+.C{
+	
+}
+.D{
+	border: 1px solid grey;
+	border-radius: 5px;
+	box-shadow:2px 2px 1px lightgrey;
+	margin-left: 10px;
+	width: 20%;
+	min-height:100px;
+
+}
+.div3{
+	min-height: 7px;
+	margin-left: 7px;
+	margin-right: 7px;
+}
+.di3{
+	margin-left: 20px;
+	margin-top: 20px;
+}

@@ -1,0 +1,14 @@
+CSS Sytles:
+____________
+1.Inline
+2.Internal 
+3.External
+
+selectors:
+___________
+1.by using class
+2.by using Id
+3.element selector
+4.universal selector
+5.Attribute Selector
+6.Pseudo Selector

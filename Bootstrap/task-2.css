@@ -1,0 +1,30 @@
+.div1{
+	border-radius: 5px;
+	height: 300px;
+	margin:10px;
+	
+}
+.div2{
+	height: 300px;
+	box-shadow:1px 1px 1px grey;
+}
+body{
+	background-color: lightgrey;
+}
+.left{
+	float: left;
+
+}
+.right{
+/*	float: right;*/
+margin-left: 20%;
+}
+#id1{
+	font-size:30px;
+	color: skyblue;
+	margin-top:30%;
+}
+p{
+	font-size: 10px;
+	color: grey;
+}

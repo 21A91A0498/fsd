@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>var,let and const</title>
+</head>
+<body>
+	<!-- global scope variable= var
+	block level elments= let,const -->
+
+	<script type="text/javascript">
+		// var is used as a Global level variable
+		var a=120;
+		document.write(a,"<br>");
+		// where as let and const bblock level elmemets
+		let b=10;
+		// let b=20; wrong -->because redeclaration is not possible 
+		b=20;
+		// reinitialization is possible
+		document.write(b,"<br>")
+		const c=10;
+		// c=30; if we try to modify it will throw an error in console  because const varible is declared and initialized only once
+		document.write("c value ",c,"<br>")
+
+		{
+			let i=40;
+			document.write(i) 
+		}
+		// document.write("hii",i) this  statement will not be  executed and throw an error in console because let is an block level after the culry block it cannot be used
+
+
+
+	</script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+a:link{
+	color:brown !important;
+
+}
+a:visited{
+	color:green;
+
+}
+a:hover{
+	color: grey;
+	font-size: 30px;
+}
+a:active{
+	color: yellow;
+}
+/*div{
+	height: 50px;
+	width:50px;
+	background-color:black;
+}
+div:hover{
+	height: 100px;
+	width:100px;
+	background-color:red;
+}*/
+
+.main{
+	height: 400px;
+	background: skyblue;
+	width: 100%;
+}
+.one{
+	height: 250px;
+	width:250px;
+	background-color: red;
+	float: left;
+	margin-right: 10px;
+	margin-top: 15px;
+	border-radius: 20px;
+}
+.one1{
+	height: 250px;
+	width:250px;
+	background-color: red;
+	float: left;
+	margin-right: 10px;
+	margin-left: 60px;
+	margin-top: 15px;
+	border-radius: 20px;
+}

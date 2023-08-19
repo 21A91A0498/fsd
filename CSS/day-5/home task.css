@@ -1,0 +1,15 @@
+.main{
+	height: 500pxpx;
+	width: 1200px;
+	background-color:black;
+}
+.up{
+	height: 50px;
+	width: 1200px;
+	background-color: pink;
+}
+.down{
+	height: 400;
+	width:1200px;
+	background-color: red;
+}

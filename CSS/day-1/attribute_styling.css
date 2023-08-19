@@ -1,0 +1,12 @@
+input[type]{
+	color: red;
+}
+input[type="text"]{
+	color:blueviolet;
+}
+input[type="tel"]{
+	color: yellow;
+}
+input[type="password"]{
+	color: greenyellow;
+}
